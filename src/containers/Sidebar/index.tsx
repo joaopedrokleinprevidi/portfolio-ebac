@@ -1,7 +1,7 @@
 import Avatar from "../../components/Avatar"
 import Paragrafo from "../../components/Paragrafo"
 import Titulo from "../../components/Titulo"
-import { BotaoTema, Descricao, SidebarContainer } from "./styles"
+import { BotaoTema, SidebarContainer } from "./styles"
 
 const Sidebar = () => {
   return (
@@ -12,9 +12,9 @@ const Sidebar = () => {
         <Paragrafo color="BBB" fontSize={16}>
           joaopedroklein
         </Paragrafo>
-        <Descricao marginTop={20} color="CCC" fontSize={11}>
+        <Paragrafo marginTop={24} color="CCC" fontSize={11}>
           Engenheiro Front-End
-        </Descricao>
+        </Paragrafo>
         <BotaoTema>Trocar tema</BotaoTema>
       </SidebarContainer>
     </aside>
