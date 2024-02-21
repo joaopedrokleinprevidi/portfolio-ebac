@@ -6,7 +6,7 @@ const sobre = () => {
   return (
     <section>
       <Titulo fontSize={16}>Sobre</Titulo>
-      <Paragrafo>
+      <Paragrafo color="secundaria">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, sequi
         quos sunt ut eius iusto inventore necessitatibus, accusantium
         consequatur, quod repudiandae maiores magni? Accusamus, enim voluptates
