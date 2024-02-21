@@ -4,11 +4,16 @@ export type PropsParagrafo = {
   children: string
   color?: string
   fontSize?: number
+  marginTop?: number
 }
 
 const Paragrafo = (props: PropsParagrafo) => {
   return (
-    <EstiloDoParagrafo fontSize={props.fontSize} color={props.color}>
+    <EstiloDoParagrafo
+      marginTop={props.marginTop}
+      fontSize={props.fontSize}
+      color={props.color}
+    >
       {props.children}
     </EstiloDoParagrafo>
   )
